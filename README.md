@@ -4,7 +4,7 @@ Ce projet vise à explorer les données météorologiques de l’API OpenWeather
 
 Il implémente le pipeline illustré ci-dessous :
 
-![HomeView] (images/architecture.PNG)
+![HomeView](images/architecture.PNG)
 
 ## Project Summary
 This initiative encompasses the following key components:
