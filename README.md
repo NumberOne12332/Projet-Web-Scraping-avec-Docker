@@ -12,10 +12,10 @@ Dockerfiles: Definitions for creating Docker containers designed for both Cassan
 ## Prerequisites
 To engage with this project, the following prerequisites are necessary:
 
-Docker
-Docker Compose
-Components
-Cassandra
+  Docker
+  Docker Compose
+  Components
+  Cassandra
 Configuration: The Cassandra database is containerized utilizing the official Cassandra Docker image. It's set up to operate on port 9042 and is accessible via the 'cassandra' hostname within the Docker network. A health check feature guarantees that the database is operational before the Crawler commences data insertion.
 ![HomeView](images/cassandra.PNG)
 
