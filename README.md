@@ -1,5 +1,10 @@
 
+ ## Projet d’exploration de données météorologiques
+Ce projet vise à explorer les données météorologiques de l’API OpenWeather https://openweathermap.org pour les villes de France et à stocker les données récupérées dans une base de données Cassandra. Une API est également là pour nous permettre de récupérer des informations météorologiques à partir de la base de données.
 
+Il implémente le pipeline illustré ci-dessous :
+
+! [HomeView] (images/architecture.PNG)
 
 ## Project Summary
 This initiative encompasses the following key components:
@@ -9,6 +14,9 @@ Crawler Service: Developed in Python, this service is responsible for acquiring 
 Flask-Api Service: Also built in Python, this service retrieves weather information from the database, responding to API requests.
 Docker Compose: An orchestration tool streamlining communication between the Cassandra database and the Crawler service.
 Dockerfiles: Definitions for creating Docker containers designed for both Cassandra and the Crawler service.
+
+
+
 ## Prerequisites
 To engage with this project, the following prerequisites are necessary:
 
